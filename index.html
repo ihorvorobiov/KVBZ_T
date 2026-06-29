@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Інтерактивний Візуалізатор Купе | Camira Aura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-container">
+      <div class="logo-icon">K</div>
+      <div class="logo-text">
+        <h1>Візуалізатор Пасажирського Купе</h1>
+        <p>Інтерактивний підбір тканин Aura від Camira Fabrics</p>
+      </div>
+    </div>
+    <div class="header-badge">Колекція Aura (200 кольорів)</div>
+  </header>
+
+  <!-- Main Work App Area -->
+  <div class="app-container">
+    
+    <!-- Left Column: Visualizer Viewport -->
+    <div class="visualizer-section">
+      <div class="visualizer-container">
+        <!-- Main dynamic HTML5 Canvas -->
+        <canvas id="visualizer-canvas" class="vis-layer" width="2540" height="1664" style="width: 100%; height: 100%; object-fit: contain;"></canvas>
+        
+        <!-- Loading spinner overlay -->
+        <div id="canvas-loader" class="loading-overlay hidden">
+          <div class="loading-spinner"></div>
+          <div id="loader-text">Завантаження...</div>
+        </div>
+      </div>
+      
+      <div class="viewer-overlay">
+        <div class="pulse-dot"></div>
+        <span>Інтерактивний 2D рендер купе • Натискайте на тканини справа для миттєвої примірки</span>
+      </div>
+    </div>
+
+    <!-- Right Column: Configurations & Controls Sidebar -->
+    <div class="configurator-sidebar">
+      <div class="sidebar-content custom-scrollbar">
+        
+        <!-- Target Selection Card -->
+        <div class="control-card">
+          <h3 class="section-title">Режим примірки</h3>
+          <div class="mode-toggle-group">
+            <button class="mode-btn active" data-mode="sync">Все купе</button>
+            <button class="mode-btn" data-mode="separate">Окремі елементи</button>
+          </div>
+          
+          <h3 class="section-title">Елементи інтер'єру</h3>
+          <div id="targets-container" class="targets-container" style="opacity: 0.5; pointer-events: none;">
+            
+            <!-- Shelves and Cushions (originally Blue) -->
+            <div class="target-row active" data-target="shelves">
+              <div class="target-info">
+                <span class="target-emoji">🛌</span>
+                <div>
+                  <div class="target-name">Полиці та сидіння</div>
+                  <span style="font-size: 0.75rem; color: var(--text-secondary);">Спальні місця, нижній диван та спинка</span>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span id="tag-shelves" class="active-fabric-tag">—</span>
+                <div class="target-indicator"></div>
+              </div>
+            </div>
+            
+            <!-- Wall panels & pockets (originally Green) -->
+            <div class="target-row" data-target="walls">
+              <div class="target-info">
+                <span class="target-emoji">🧱</span>
+                <div>
+                  <div class="target-name">Стінові панелі та кишені</div>
+                  <span style="font-size: 0.75rem; color: var(--text-secondary);">Спинка полиці, органайзери та узголів'я</span>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span id="tag-walls" class="active-fabric-tag">—</span>
+                <div class="target-indicator"></div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- Catalog Filter and Swatches Wrapper -->
+        <div class="catalog-controls">
+          <h3 class="section-title">Каталог тканин Aura</h3>
+          
+          <!-- Search Bar -->
+          <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" placeholder="Пошук тканини за кодом (наприклад, CAA321)...">
+          </div>
+          
+          <!-- Color Filter Chips (Categorized in python script) -->
+          <div class="color-filters">
+            <button class="filter-chip active" data-category="all">
+              Все <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="blue">
+              <span class="color-dot" style="background-color: #3b82f6;"></span> Синій <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="green">
+              <span class="color-dot" style="background-color: #10b981;"></span> Зелений <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="red">
+              <span class="color-dot" style="background-color: #ef4444;"></span> Червоний <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="brown">
+              <span class="color-dot" style="background-color: #b45309;"></span> Коричневий <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="neutral">
+              <span class="color-dot" style="background-color: #6b7280;"></span> Сірий/Нейтральний <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="yellow">
+              <span class="color-dot" style="background-color: #eab308;"></span> Жовтий <span class="count-badge"></span>
+            </button>
+            <button class="filter-chip" data-category="purple">
+              <span class="color-dot" style="background-color: #a855f7;"></span> Фіолетовий <span class="count-badge"></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Fabrics Swatch Grid -->
+        <div class="swatches-grid-container">
+          <div id="swatches-grid" class="swatches-grid custom-scrollbar">
+            <!-- Swatches will be generated dynamically by app.js -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Configurator Actions and Details Footer -->
+      <div class="sidebar-footer">
+        
+        <div class="info-banner">
+          <span class="info-banner-icon">💡</span>
+          <span>Всі зразки підвантажуються в реальному часі безпосередньо з оригінального сховища Camira Fabrics.</span>
+        </div>
+
+        <div class="selected-summary">
+          <div class="summary-item">
+            <span>Тканина дивану/полиць:</span>
+            <span id="summary-shelves" class="summary-value">Завантаження...</span>
+          </div>
+          <div class="summary-item">
+            <span>Тканина стінових панелей:</span>
+            <span id="summary-walls" class="summary-value">Завантаження...</span>
+          </div>
+        </div>
+        
+        <button id="download-btn" class="btn-primary">
+          <span>💾</span> Завантажити зображення дизайну
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

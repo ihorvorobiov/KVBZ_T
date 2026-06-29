@@ -1,0 +1,1932 @@
+[
+  {
+    "code": "CAA321",
+    "url": "swatches/CAA321.jpg",
+    "r": 48,
+    "g": 66,
+    "b": 103,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAA321.png",
+    "walls_img": "rendered/walls_CAA321.png"
+  },
+  {
+    "code": "CAA323",
+    "url": "swatches/CAA323.jpg",
+    "r": 41,
+    "g": 62,
+    "b": 106,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAA323.png",
+    "walls_img": "rendered/walls_CAA323.png"
+  },
+  {
+    "code": "CAA324",
+    "url": "swatches/CAA324.jpg",
+    "r": 131,
+    "g": 22,
+    "b": 39,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAA324.png",
+    "walls_img": "rendered/walls_CAA324.png"
+  },
+  {
+    "code": "CAA326",
+    "url": "swatches/CAA326.jpg",
+    "r": 41,
+    "g": 65,
+    "b": 106,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAA326.png",
+    "walls_img": "rendered/walls_CAA326.png"
+  },
+  {
+    "code": "CAAB81",
+    "url": "swatches/CAAB81.jpg",
+    "r": 66,
+    "g": 126,
+    "b": 37,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAAB81.png",
+    "walls_img": "rendered/walls_CAAB81.png"
+  },
+  {
+    "code": "CAAB96",
+    "url": "swatches/CAAB96.jpg",
+    "r": 44,
+    "g": 46,
+    "b": 46,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAAB96.png",
+    "walls_img": "rendered/walls_CAAB96.png"
+  },
+  {
+    "code": "CAAC11",
+    "url": "swatches/CAAC11.jpg",
+    "r": 45,
+    "g": 41,
+    "b": 38,
+    "category": "brown",
+    "shelves_img": "rendered/shelves_CAAC11.png",
+    "walls_img": "rendered/walls_CAAC11.png"
+  },
+  {
+    "code": "CAAC14",
+    "url": "swatches/CAAC14.jpg",
+    "r": 37,
+    "g": 62,
+    "b": 103,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAAC14.png",
+    "walls_img": "rendered/walls_CAAC14.png"
+  },
+  {
+    "code": "CAAD31",
+    "url": "swatches/CAAD31.jpg",
+    "r": 39,
+    "g": 38,
+    "b": 38,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAAD31.png",
+    "walls_img": "rendered/walls_CAAD31.png"
+  },
+  {
+    "code": "CAAD65",
+    "url": "swatches/CAAD65.jpg",
+    "r": 45,
+    "g": 46,
+    "b": 39,
+    "category": "yellow",
+    "shelves_img": "rendered/shelves_CAAD65.png",
+    "walls_img": "rendered/walls_CAAD65.png"
+  },
+  {
+    "code": "CAAE59",
+    "url": "swatches/CAAE59.jpg",
+    "r": 42,
+    "g": 47,
+    "b": 38,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAAE59.png",
+    "walls_img": "rendered/walls_CAAE59.png"
+  },
+  {
+    "code": "CAAE60",
+    "url": "swatches/CAAE60.jpg",
+    "r": 44,
+    "g": 67,
+    "b": 101,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAAE60.png",
+    "walls_img": "rendered/walls_CAAE60.png"
+  },
+  {
+    "code": "CAAE61",
+    "url": "swatches/CAAE61.jpg",
+    "r": 38,
+    "g": 59,
+    "b": 101,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAAE61.png",
+    "walls_img": "rendered/walls_CAAE61.png"
+  },
+  {
+    "code": "CAAE62",
+    "url": "swatches/CAAE62.jpg",
+    "r": 41,
+    "g": 68,
+    "b": 100,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAAE62.png",
+    "walls_img": "rendered/walls_CAAE62.png"
+  },
+  {
+    "code": "CAD321",
+    "url": "swatches/CAD321.jpg",
+    "r": 9,
+    "g": 42,
+    "b": 78,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAD321.png",
+    "walls_img": "rendered/walls_CAD321.png"
+  },
+  {
+    "code": "CAD323",
+    "url": "swatches/CAD323.jpg",
+    "r": 8,
+    "g": 39,
+    "b": 77,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAD323.png",
+    "walls_img": "rendered/walls_CAD323.png"
+  },
+  {
+    "code": "CAD324",
+    "url": "swatches/CAD324.jpg",
+    "r": 91,
+    "g": 9,
+    "b": 30,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAD324.png",
+    "walls_img": "rendered/walls_CAD324.png"
+  },
+  {
+    "code": "CAD326",
+    "url": "swatches/CAD326.jpg",
+    "r": 7,
+    "g": 41,
+    "b": 78,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAD326.png",
+    "walls_img": "rendered/walls_CAD326.png"
+  },
+  {
+    "code": "CADB81",
+    "url": "swatches/CADB81.jpg",
+    "r": 8,
+    "g": 77,
+    "b": 51,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CADB81.png",
+    "walls_img": "rendered/walls_CADB81.png"
+  },
+  {
+    "code": "CADB96",
+    "url": "swatches/CADB96.jpg",
+    "r": 25,
+    "g": 25,
+    "b": 25,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CADB96.png",
+    "walls_img": "rendered/walls_CADB96.png"
+  },
+  {
+    "code": "CADC11",
+    "url": "swatches/CADC11.jpg",
+    "r": 26,
+    "g": 22,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CADC11.png",
+    "walls_img": "rendered/walls_CADC11.png"
+  },
+  {
+    "code": "CADC14",
+    "url": "swatches/CADC14.jpg",
+    "r": 8,
+    "g": 41,
+    "b": 79,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CADC14.png",
+    "walls_img": "rendered/walls_CADC14.png"
+  },
+  {
+    "code": "CADD31",
+    "url": "swatches/CADD31.jpg",
+    "r": 22,
+    "g": 21,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CADD31.png",
+    "walls_img": "rendered/walls_CADD31.png"
+  },
+  {
+    "code": "CADD65",
+    "url": "swatches/CADD65.jpg",
+    "r": 26,
+    "g": 25,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CADD65.png",
+    "walls_img": "rendered/walls_CADD65.png"
+  },
+  {
+    "code": "CADE59",
+    "url": "swatches/CADE59.jpg",
+    "r": 24,
+    "g": 25,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CADE59.png",
+    "walls_img": "rendered/walls_CADE59.png"
+  },
+  {
+    "code": "CADE60",
+    "url": "swatches/CADE60.jpg",
+    "r": 9,
+    "g": 42,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CADE60.png",
+    "walls_img": "rendered/walls_CADE60.png"
+  },
+  {
+    "code": "CADE61",
+    "url": "swatches/CADE61.jpg",
+    "r": 6,
+    "g": 38,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CADE61.png",
+    "walls_img": "rendered/walls_CADE61.png"
+  },
+  {
+    "code": "CADE62",
+    "url": "swatches/CADE62.jpg",
+    "r": 7,
+    "g": 42,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CADE62.png",
+    "walls_img": "rendered/walls_CADE62.png"
+  },
+  {
+    "code": "CAF322",
+    "url": "swatches/CAF322.jpg",
+    "r": 28,
+    "g": 56,
+    "b": 102,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAF322.png",
+    "walls_img": "rendered/walls_CAF322.png"
+  },
+  {
+    "code": "CAF325",
+    "url": "swatches/CAF325.jpg",
+    "r": 120,
+    "g": 3,
+    "b": 29,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAF325.png",
+    "walls_img": "rendered/walls_CAF325.png"
+  },
+  {
+    "code": "CAF328",
+    "url": "swatches/CAF328.jpg",
+    "r": 45,
+    "g": 53,
+    "b": 59,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAF328.png",
+    "walls_img": "rendered/walls_CAF328.png"
+  },
+  {
+    "code": "CAFE70",
+    "url": "swatches/CAFE70.jpg",
+    "r": 30,
+    "g": 32,
+    "b": 33,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAFE70.png",
+    "walls_img": "rendered/walls_CAFE70.png"
+  },
+  {
+    "code": "CAFE71",
+    "url": "swatches/CAFE71.jpg",
+    "r": 48,
+    "g": 119,
+    "b": 27,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAFE71.png",
+    "walls_img": "rendered/walls_CAFE71.png"
+  },
+  {
+    "code": "CAG321",
+    "url": "swatches/CAG321.jpg",
+    "r": 58,
+    "g": 78,
+    "b": 126,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAG321.png",
+    "walls_img": "rendered/walls_CAG321.png"
+  },
+  {
+    "code": "CAG323",
+    "url": "swatches/CAG323.jpg",
+    "r": 56,
+    "g": 76,
+    "b": 126,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAG323.png",
+    "walls_img": "rendered/walls_CAG323.png"
+  },
+  {
+    "code": "CAG324",
+    "url": "swatches/CAG324.jpg",
+    "r": 157,
+    "g": 10,
+    "b": 37,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAG324.png",
+    "walls_img": "rendered/walls_CAG324.png"
+  },
+  {
+    "code": "CAG326",
+    "url": "swatches/CAG326.jpg",
+    "r": 55,
+    "g": 77,
+    "b": 127,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAG326.png",
+    "walls_img": "rendered/walls_CAG326.png"
+  },
+  {
+    "code": "CAGB81",
+    "url": "swatches/CAGB81.jpg",
+    "r": 96,
+    "g": 163,
+    "b": 11,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAGB81.png",
+    "walls_img": "rendered/walls_CAGB81.png"
+  },
+  {
+    "code": "CAGB96",
+    "url": "swatches/CAGB96.jpg",
+    "r": 46,
+    "g": 47,
+    "b": 49,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAGB96.png",
+    "walls_img": "rendered/walls_CAGB96.png"
+  },
+  {
+    "code": "CAGC11",
+    "url": "swatches/CAGC11.jpg",
+    "r": 47,
+    "g": 44,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAGC11.png",
+    "walls_img": "rendered/walls_CAGC11.png"
+  },
+  {
+    "code": "CAGC14",
+    "url": "swatches/CAGC14.jpg",
+    "r": 55,
+    "g": 77,
+    "b": 127,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAGC14.png",
+    "walls_img": "rendered/walls_CAGC14.png"
+  },
+  {
+    "code": "CAGD31",
+    "url": "swatches/CAGD31.jpg",
+    "r": 43,
+    "g": 43,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAGD31.png",
+    "walls_img": "rendered/walls_CAGD31.png"
+  },
+  {
+    "code": "CAGD65",
+    "url": "swatches/CAGD65.jpg",
+    "r": 47,
+    "g": 47,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAGD65.png",
+    "walls_img": "rendered/walls_CAGD65.png"
+  },
+  {
+    "code": "CAGE59",
+    "url": "swatches/CAGE59.jpg",
+    "r": 45,
+    "g": 47,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAGE59.png",
+    "walls_img": "rendered/walls_CAGE59.png"
+  },
+  {
+    "code": "CAGE60",
+    "url": "swatches/CAGE60.jpg",
+    "r": 57,
+    "g": 78,
+    "b": 125,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAGE60.png",
+    "walls_img": "rendered/walls_CAGE60.png"
+  },
+  {
+    "code": "CAGE61",
+    "url": "swatches/CAGE61.jpg",
+    "r": 54,
+    "g": 75,
+    "b": 124,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAGE61.png",
+    "walls_img": "rendered/walls_CAGE61.png"
+  },
+  {
+    "code": "CAGE62",
+    "url": "swatches/CAGE62.jpg",
+    "r": 56,
+    "g": 79,
+    "b": 124,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAGE62.png",
+    "walls_img": "rendered/walls_CAGE62.png"
+  },
+  {
+    "code": "CAI321",
+    "url": "swatches/CAI321.jpg",
+    "r": 15,
+    "g": 47,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAI321.png",
+    "walls_img": "rendered/walls_CAI321.png"
+  },
+  {
+    "code": "CAI323",
+    "url": "swatches/CAI323.jpg",
+    "r": 14,
+    "g": 40,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAI323.png",
+    "walls_img": "rendered/walls_CAI323.png"
+  },
+  {
+    "code": "CAI324",
+    "url": "swatches/CAI324.jpg",
+    "r": 94,
+    "g": 16,
+    "b": 34,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAI324.png",
+    "walls_img": "rendered/walls_CAI324.png"
+  },
+  {
+    "code": "CAI326",
+    "url": "swatches/CAI326.jpg",
+    "r": 10,
+    "g": 43,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAI326.png",
+    "walls_img": "rendered/walls_CAI326.png"
+  },
+  {
+    "code": "CAIB81",
+    "url": "swatches/CAIB81.jpg",
+    "r": 14,
+    "g": 79,
+    "b": 56,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAIB81.png",
+    "walls_img": "rendered/walls_CAIB81.png"
+  },
+  {
+    "code": "CAIB96",
+    "url": "swatches/CAIB96.jpg",
+    "r": 30,
+    "g": 30,
+    "b": 30,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAIB96.png",
+    "walls_img": "rendered/walls_CAIB96.png"
+  },
+  {
+    "code": "CAIC11",
+    "url": "swatches/CAIC11.jpg",
+    "r": 32,
+    "g": 24,
+    "b": 20,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAIC11.png",
+    "walls_img": "rendered/walls_CAIC11.png"
+  },
+  {
+    "code": "CAIC14",
+    "url": "swatches/CAIC14.jpg",
+    "r": 13,
+    "g": 45,
+    "b": 81,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAIC14.png",
+    "walls_img": "rendered/walls_CAIC14.png"
+  },
+  {
+    "code": "CAID31",
+    "url": "swatches/CAID31.jpg",
+    "r": 24,
+    "g": 21,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAID31.png",
+    "walls_img": "rendered/walls_CAID31.png"
+  },
+  {
+    "code": "CAID65",
+    "url": "swatches/CAID65.jpg",
+    "r": 32,
+    "g": 30,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAID65.png",
+    "walls_img": "rendered/walls_CAID65.png"
+  },
+  {
+    "code": "CAIE59",
+    "url": "swatches/CAIE59.jpg",
+    "r": 28,
+    "g": 31,
+    "b": 20,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAIE59.png",
+    "walls_img": "rendered/walls_CAIE59.png"
+  },
+  {
+    "code": "CAIE60",
+    "url": "swatches/CAIE60.jpg",
+    "category": "blue",
+    "r": 15,
+    "g": 46,
+    "b": 73,
+    "shelves_img": "rendered/shelves_CAIE60.png",
+    "walls_img": "rendered/walls_CAIE60.png"
+  },
+  {
+    "code": "CAIE61",
+    "url": "swatches/CAIE61.jpg",
+    "r": 7,
+    "g": 36,
+    "b": 72,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAIE61.png",
+    "walls_img": "rendered/walls_CAIE61.png"
+  },
+  {
+    "code": "CAIE62",
+    "url": "swatches/CAIE62.jpg",
+    "r": 11,
+    "g": 47,
+    "b": 72,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAIE62.png",
+    "walls_img": "rendered/walls_CAIE62.png"
+  },
+  {
+    "code": "CAL322",
+    "url": "swatches/CAL322.jpg",
+    "r": 49,
+    "g": 72,
+    "b": 124,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAL322.png",
+    "walls_img": "rendered/walls_CAL322.png"
+  },
+  {
+    "code": "CAL325",
+    "url": "swatches/CAL325.jpg",
+    "category": "neutral",
+    "r": 120,
+    "g": 120,
+    "b": 120,
+    "shelves_img": "rendered/shelves_CAL325.png",
+    "walls_img": "rendered/walls_CAL325.png"
+  },
+  {
+    "code": "CALE70",
+    "url": "swatches/CALE70.jpg",
+    "r": 38,
+    "g": 42,
+    "b": 43,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CALE70.png",
+    "walls_img": "rendered/walls_CALE70.png"
+  },
+  {
+    "code": "CALE71",
+    "url": "swatches/CALE71.jpg",
+    "r": 84,
+    "g": 159,
+    "b": 8,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CALE71.png",
+    "walls_img": "rendered/walls_CALE71.png"
+  },
+  {
+    "code": "CAM322",
+    "url": "swatches/CAM322.jpg",
+    "category": "blue",
+    "r": 5,
+    "g": 38,
+    "b": 78,
+    "shelves_img": "rendered/shelves_CAM322.png",
+    "walls_img": "rendered/walls_CAM322.png"
+  },
+  {
+    "code": "CAM325",
+    "url": "swatches/CAM325.jpg",
+    "category": "red",
+    "r": 88,
+    "g": 4,
+    "b": 25,
+    "shelves_img": "rendered/shelves_CAM325.png",
+    "walls_img": "rendered/walls_CAM325.png"
+  },
+  {
+    "code": "CAME70",
+    "url": "swatches/CAME70.jpg",
+    "r": 21,
+    "g": 21,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAME70.png",
+    "walls_img": "rendered/walls_CAME70.png"
+  },
+  {
+    "code": "CAME71",
+    "url": "swatches/CAME71.jpg",
+    "r": 6,
+    "g": 77,
+    "b": 46,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CAME71.png",
+    "walls_img": "rendered/walls_CAME71.png"
+  },
+  {
+    "code": "CAV321",
+    "url": "swatches/CAV321.jpg",
+    "r": 33,
+    "g": 59,
+    "b": 103,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAV321.png",
+    "walls_img": "rendered/walls_CAV321.png"
+  },
+  {
+    "code": "CAV323",
+    "url": "swatches/CAV323.jpg",
+    "r": 31,
+    "g": 57,
+    "b": 103,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAV323.png",
+    "walls_img": "rendered/walls_CAV323.png"
+  },
+  {
+    "code": "CAV324",
+    "url": "swatches/CAV324.jpg",
+    "r": 122,
+    "g": 8,
+    "b": 31,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CAV324.png",
+    "walls_img": "rendered/walls_CAV324.png"
+  },
+  {
+    "code": "CAV326",
+    "url": "swatches/CAV326.jpg",
+    "category": "blue",
+    "r": 31,
+    "g": 58,
+    "b": 103,
+    "shelves_img": "rendered/shelves_CAV326.png",
+    "walls_img": "rendered/walls_CAV326.png"
+  },
+  {
+    "code": "CAVB81",
+    "url": "swatches/CAVB81.jpg",
+    "category": "green",
+    "r": 52,
+    "g": 121,
+    "b": 30,
+    "shelves_img": "rendered/shelves_CAVB81.png",
+    "walls_img": "rendered/walls_CAVB81.png"
+  },
+  {
+    "code": "CAVB96",
+    "url": "swatches/CAVB96.jpg",
+    "r": 33,
+    "g": 35,
+    "b": 36,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAVB96.png",
+    "walls_img": "rendered/walls_CAVB96.png"
+  },
+  {
+    "code": "CAVC11",
+    "url": "swatches/CAVC11.jpg",
+    "r": 33,
+    "g": 34,
+    "b": 33,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAVC11.png",
+    "walls_img": "rendered/walls_CAVC11.png"
+  },
+  {
+    "code": "CAVC14",
+    "url": "swatches/CAVC14.jpg",
+    "category": "blue",
+    "r": 31,
+    "g": 58,
+    "b": 103,
+    "shelves_img": "rendered/shelves_CAVC14.png",
+    "walls_img": "rendered/walls_CAVC14.png"
+  },
+  {
+    "code": "CAVD31",
+    "url": "swatches/CAVD31.jpg",
+    "r": 31,
+    "g": 33,
+    "b": 33,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAVD31.png",
+    "walls_img": "rendered/walls_CAVD31.png"
+  },
+  {
+    "code": "CAVD65",
+    "url": "swatches/CAVD65.jpg",
+    "r": 33,
+    "g": 35,
+    "b": 34,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAVD65.png",
+    "walls_img": "rendered/walls_CAVD65.png"
+  },
+  {
+    "code": "CAVE59",
+    "url": "swatches/CAVE59.jpg",
+    "r": 32,
+    "g": 35,
+    "b": 33,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CAVE59.png",
+    "walls_img": "rendered/walls_CAVE59.png"
+  },
+  {
+    "code": "CAVE60",
+    "url": "swatches/CAVE60.jpg",
+    "r": 32,
+    "g": 59,
+    "b": 102,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAVE60.png",
+    "walls_img": "rendered/walls_CAVE60.png"
+  },
+  {
+    "code": "CAVE61",
+    "url": "swatches/CAVE61.jpg",
+    "r": 30,
+    "g": 56,
+    "b": 101,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAVE61.png",
+    "walls_img": "rendered/walls_CAVE61.png"
+  },
+  {
+    "code": "CAVE62",
+    "url": "swatches/CAVE62.jpg",
+    "r": 31,
+    "g": 59,
+    "b": 101,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CAVE62.png",
+    "walls_img": "rendered/walls_CAVE62.png"
+  },
+  {
+    "code": "CBR321",
+    "url": "swatches/CBR321.jpg",
+    "category": "blue",
+    "r": 17,
+    "g": 44,
+    "b": 78,
+    "shelves_img": "rendered/shelves_CBR321.png",
+    "walls_img": "rendered/walls_CBR321.png"
+  },
+  {
+    "code": "CBR323",
+    "url": "swatches/CBR323.jpg",
+    "r": 13,
+    "g": 44,
+    "b": 83,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CBR323.png",
+    "walls_img": "rendered/walls_CBR323.png"
+  },
+  {
+    "code": "CBR324",
+    "url": "swatches/CBR324.jpg",
+    "r": 95,
+    "g": 14,
+    "b": 31,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CBR324.png",
+    "walls_img": "rendered/walls_CBR324.png"
+  },
+  {
+    "code": "CBR326",
+    "url": "swatches/CBR326.jpg",
+    "r": 14,
+    "g": 45,
+    "b": 81,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CBR326.png",
+    "walls_img": "rendered/walls_CBR326.png"
+  },
+  {
+    "code": "CBRB81",
+    "url": "swatches/CBRB81.jpg",
+    "r": 19,
+    "g": 82,
+    "b": 50,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CBRB81.png",
+    "walls_img": "rendered/walls_CBRB81.png"
+  },
+  {
+    "code": "CBRB96",
+    "url": "swatches/CBRB96.jpg",
+    "r": 29,
+    "g": 29,
+    "b": 29,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CBRB96.png",
+    "walls_img": "rendered/walls_CBRB96.png"
+  },
+  {
+    "code": "CBRC11",
+    "url": "swatches/CBRC11.jpg",
+    "r": 29,
+    "g": 27,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CBRC11.png",
+    "walls_img": "rendered/walls_CBRC11.png"
+  },
+  {
+    "code": "CBRC14",
+    "url": "swatches/CBRC14.jpg",
+    "category": "blue",
+    "r": 10,
+    "g": 42,
+    "b": 78,
+    "shelves_img": "rendered/shelves_CBRC14.png",
+    "walls_img": "rendered/walls_CBRC14.png"
+  },
+  {
+    "code": "CBRD31",
+    "url": "swatches/CBRD31.jpg",
+    "r": 27,
+    "g": 27,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CBRD31.png",
+    "walls_img": "rendered/walls_CBRD31.png"
+  },
+  {
+    "code": "CBRD65",
+    "url": "swatches/CBRD65.jpg",
+    "r": 29,
+    "g": 29,
+    "b": 27,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CBRD65.png",
+    "walls_img": "rendered/walls_CBRD65.png"
+  },
+  {
+    "code": "CBRE59",
+    "url": "swatches/CBRE59.jpg",
+    "r": 28,
+    "g": 29,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CBRE59.png",
+    "walls_img": "rendered/walls_CBRE59.png"
+  },
+  {
+    "code": "CBRE60",
+    "url": "swatches/CBRE60.jpg",
+    "r": 15,
+    "g": 46,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CBRE60.png",
+    "walls_img": "rendered/walls_CBRE60.png"
+  },
+  {
+    "code": "CBRE61",
+    "url": "swatches/CBRE61.jpg",
+    "r": 12,
+    "g": 42,
+    "b": 79,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CBRE61.png",
+    "walls_img": "rendered/walls_CBRE61.png"
+  },
+  {
+    "code": "CBRE62",
+    "url": "swatches/CBRE62.jpg",
+    "r": 13,
+    "g": 46,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CBRE62.png",
+    "walls_img": "rendered/walls_CBRE62.png"
+  },
+  {
+    "code": "CCC321",
+    "url": "swatches/CCC321.jpg",
+    "r": 52,
+    "g": 76,
+    "b": 110,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCC321.png",
+    "walls_img": "rendered/walls_CCC321.png"
+  },
+  {
+    "code": "CCC323",
+    "url": "swatches/CCC323.jpg",
+    "r": 50,
+    "g": 59,
+    "b": 94,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCC323.png",
+    "walls_img": "rendered/walls_CCC323.png"
+  },
+  {
+    "code": "CCC324",
+    "url": "swatches/CCC324.jpg",
+    "category": "red",
+    "r": 132,
+    "g": 32,
+    "b": 49,
+    "shelves_img": "rendered/shelves_CCC324.png",
+    "walls_img": "rendered/walls_CCC324.png"
+  },
+  {
+    "code": "CCC326",
+    "url": "swatches/CCC326.jpg",
+    "r": 38,
+    "g": 67,
+    "b": 109,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCC326.png",
+    "walls_img": "rendered/walls_CCC326.png"
+  },
+  {
+    "code": "CCCB81",
+    "url": "swatches/CCCB81.jpg",
+    "category": "green",
+    "r": 67,
+    "g": 128,
+    "b": 49,
+    "shelves_img": "rendered/shelves_CCCB81.png",
+    "walls_img": "rendered/walls_CCCB81.png"
+  },
+  {
+    "code": "CCCB96",
+    "url": "swatches/CCCB96.jpg",
+    "category": "neutral",
+    "r": 53,
+    "g": 54,
+    "b": 55,
+    "shelves_img": "rendered/shelves_CCCB96.png",
+    "walls_img": "rendered/walls_CCCB96.png"
+  },
+  {
+    "code": "CCCC11",
+    "url": "swatches/CCCC11.jpg",
+    "r": 57,
+    "g": 37,
+    "b": 28,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCCC11.png",
+    "walls_img": "rendered/walls_CCCC11.png"
+  },
+  {
+    "code": "CCCD31",
+    "url": "swatches/CCCD31.jpg",
+    "category": "neutral",
+    "r": 120,
+    "g": 120,
+    "b": 120,
+    "shelves_img": "rendered/shelves_CCCD31.png",
+    "walls_img": "rendered/walls_CCCD31.png"
+  },
+  {
+    "code": "CCCD65",
+    "url": "swatches/CCCD65.jpg",
+    "category": "yellow",
+    "r": 57,
+    "g": 53,
+    "b": 31,
+    "shelves_img": "rendered/shelves_CCCD65.png",
+    "walls_img": "rendered/walls_CCCD65.png"
+  },
+  {
+    "code": "CCCE59",
+    "url": "swatches/CCCE59.jpg",
+    "category": "green",
+    "r": 47,
+    "g": 55,
+    "b": 28,
+    "shelves_img": "rendered/shelves_CCCE59.png",
+    "walls_img": "rendered/walls_CCCE59.png"
+  },
+  {
+    "code": "CCCE60",
+    "url": "swatches/CCCE60.jpg",
+    "r": 54,
+    "g": 74,
+    "b": 89,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCCE60.png",
+    "walls_img": "rendered/walls_CCCE60.png"
+  },
+  {
+    "code": "CCCE61",
+    "url": "swatches/CCCE61.jpg",
+    "category": "blue",
+    "r": 33,
+    "g": 48,
+    "b": 87,
+    "shelves_img": "rendered/shelves_CCCE61.png",
+    "walls_img": "rendered/walls_CCCE61.png"
+  },
+  {
+    "code": "CCD321",
+    "url": "swatches/CCD321.jpg",
+    "category": "blue",
+    "r": 19,
+    "g": 50,
+    "b": 85,
+    "shelves_img": "rendered/shelves_CCD321.png",
+    "walls_img": "rendered/walls_CCD321.png"
+  },
+  {
+    "code": "CCD323",
+    "url": "swatches/CCD323.jpg",
+    "r": 18,
+    "g": 42,
+    "b": 78,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCD323.png",
+    "walls_img": "rendered/walls_CCD323.png"
+  },
+  {
+    "code": "CCD324",
+    "url": "swatches/CCD324.jpg",
+    "category": "red",
+    "r": 96,
+    "g": 17,
+    "b": 35,
+    "shelves_img": "rendered/shelves_CCD324.png",
+    "walls_img": "rendered/walls_CCD324.png"
+  },
+  {
+    "code": "CCD326",
+    "url": "swatches/CCD326.jpg",
+    "r": 13,
+    "g": 46,
+    "b": 84,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCD326.png",
+    "walls_img": "rendered/walls_CCD326.png"
+  },
+  {
+    "code": "CCDB81",
+    "url": "swatches/CCDB81.jpg",
+    "r": 20,
+    "g": 86,
+    "b": 54,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCDB81.png",
+    "walls_img": "rendered/walls_CCDB81.png"
+  },
+  {
+    "code": "CCDB96",
+    "url": "swatches/CCDB96.jpg",
+    "category": "neutral",
+    "r": 32,
+    "g": 32,
+    "b": 32,
+    "shelves_img": "rendered/shelves_CCDB96.png",
+    "walls_img": "rendered/walls_CCDB96.png"
+  },
+  {
+    "code": "CCDC11",
+    "url": "swatches/CCDC11.jpg",
+    "r": 34,
+    "g": 25,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCDC11.png",
+    "walls_img": "rendered/walls_CCDC11.png"
+  },
+  {
+    "code": "CCDC14",
+    "url": "swatches/CCDC14.jpg",
+    "r": 18,
+    "g": 49,
+    "b": 86,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCDC14.png",
+    "walls_img": "rendered/walls_CCDC14.png"
+  },
+  {
+    "code": "CCDD31",
+    "url": "swatches/CCDD31.jpg",
+    "r": 25,
+    "g": 21,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCDD31.png",
+    "walls_img": "rendered/walls_CCDD31.png"
+  },
+  {
+    "code": "CCDD65",
+    "url": "swatches/CCDD65.jpg",
+    "r": 34,
+    "g": 32,
+    "b": 22,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCDD65.png",
+    "walls_img": "rendered/walls_CCDD65.png"
+  },
+  {
+    "code": "CCDE59",
+    "url": "swatches/CCDE59.jpg",
+    "r": 30,
+    "g": 33,
+    "b": 21,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCDE59.png",
+    "walls_img": "rendered/walls_CCDE59.png"
+  },
+  {
+    "code": "CCDE60",
+    "url": "swatches/CCDE60.jpg",
+    "r": 19,
+    "g": 49,
+    "b": 76,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCDE60.png",
+    "walls_img": "rendered/walls_CCDE60.png"
+  },
+  {
+    "code": "CCDE61",
+    "url": "swatches/CCDE61.jpg",
+    "r": 10,
+    "g": 37,
+    "b": 74,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCDE61.png",
+    "walls_img": "rendered/walls_CCDE61.png"
+  },
+  {
+    "code": "CCDE62",
+    "url": "swatches/CCDE62.jpg",
+    "r": 15,
+    "g": 50,
+    "b": 74,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCDE62.png",
+    "walls_img": "rendered/walls_CCDE62.png"
+  },
+  {
+    "code": "CCG321",
+    "url": "swatches/CCG321.jpg",
+    "r": 58,
+    "g": 77,
+    "b": 122,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCG321.png",
+    "walls_img": "rendered/walls_CCG321.png"
+  },
+  {
+    "code": "CCG323",
+    "url": "swatches/CCG323.jpg",
+    "r": 54,
+    "g": 74,
+    "b": 124,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCG323.png",
+    "walls_img": "rendered/walls_CCG323.png"
+  },
+  {
+    "code": "CCG324",
+    "url": "swatches/CCG324.jpg",
+    "category": "red",
+    "r": 153,
+    "g": 13,
+    "b": 38,
+    "shelves_img": "rendered/shelves_CCG324.png",
+    "walls_img": "rendered/walls_CCG324.png"
+  },
+  {
+    "code": "CCG326",
+    "url": "swatches/CCG326.jpg",
+    "r": 54,
+    "g": 76,
+    "b": 124,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCG326.png",
+    "walls_img": "rendered/walls_CCG326.png"
+  },
+  {
+    "code": "CCGB81",
+    "url": "swatches/CCGB81.jpg",
+    "r": 93,
+    "g": 157,
+    "b": 16,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCGB81.png",
+    "walls_img": "rendered/walls_CCGB81.png"
+  },
+  {
+    "code": "CCGB96",
+    "url": "swatches/CCGB96.jpg",
+    "r": 47,
+    "g": 48,
+    "b": 50,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCGB96.png",
+    "walls_img": "rendered/walls_CCGB96.png"
+  },
+  {
+    "code": "CCGC11",
+    "url": "swatches/CCGC11.jpg",
+    "r": 48,
+    "g": 45,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCGC11.png",
+    "walls_img": "rendered/walls_CCGC11.png"
+  },
+  {
+    "code": "CCGD31",
+    "url": "swatches/CCGD31.jpg",
+    "r": 44,
+    "g": 43,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCGD31.png",
+    "walls_img": "rendered/walls_CCGD31.png"
+  },
+  {
+    "code": "CCGD65",
+    "url": "swatches/CCGD65.jpg",
+    "r": 48,
+    "g": 48,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCGD65.png",
+    "walls_img": "rendered/walls_CCGD65.png"
+  },
+  {
+    "code": "CCGE59",
+    "url": "swatches/CCGE59.jpg",
+    "r": 46,
+    "g": 48,
+    "b": 45,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCGE59.png",
+    "walls_img": "rendered/walls_CCGE59.png"
+  },
+  {
+    "code": "CCGE60",
+    "url": "swatches/CCGE60.jpg",
+    "r": 56,
+    "g": 77,
+    "b": 121,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCGE60.png",
+    "walls_img": "rendered/walls_CCGE60.png"
+  },
+  {
+    "code": "CCGE61",
+    "url": "swatches/CCGE61.jpg",
+    "r": 52,
+    "g": 73,
+    "b": 121,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCGE61.png",
+    "walls_img": "rendered/walls_CCGE61.png"
+  },
+  {
+    "code": "CCJ321",
+    "url": "swatches/CCJ321.jpg",
+    "r": 19,
+    "g": 46,
+    "b": 81,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJ321.png",
+    "walls_img": "rendered/walls_CCJ321.png"
+  },
+  {
+    "code": "CCJ323",
+    "url": "swatches/CCJ323.jpg",
+    "r": 15,
+    "g": 44,
+    "b": 83,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJ323.png",
+    "walls_img": "rendered/walls_CCJ323.png"
+  },
+  {
+    "code": "CCJ324",
+    "url": "swatches/CCJ324.jpg",
+    "r": 96,
+    "g": 15,
+    "b": 32,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCJ324.png",
+    "walls_img": "rendered/walls_CCJ324.png"
+  },
+  {
+    "code": "CCJ326",
+    "url": "swatches/CCJ326.jpg",
+    "r": 14,
+    "g": 46,
+    "b": 82,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJ326.png",
+    "walls_img": "rendered/walls_CCJ326.png"
+  },
+  {
+    "code": "CCJB81",
+    "url": "swatches/CCJB81.jpg",
+    "r": 21,
+    "g": 84,
+    "b": 50,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCJB81.png",
+    "walls_img": "rendered/walls_CCJB81.png"
+  },
+  {
+    "code": "CCJB96",
+    "url": "swatches/CCJB96.jpg",
+    "r": 30,
+    "g": 31,
+    "b": 31,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCJB96.png",
+    "walls_img": "rendered/walls_CCJB96.png"
+  },
+  {
+    "code": "CCJC11",
+    "url": "swatches/CCJC11.jpg",
+    "category": "neutral",
+    "r": 31,
+    "g": 28,
+    "b": 26,
+    "shelves_img": "rendered/shelves_CCJC11.png",
+    "walls_img": "rendered/walls_CCJC11.png"
+  },
+  {
+    "code": "CCJC14",
+    "url": "swatches/CCJC14.jpg",
+    "category": "blue",
+    "r": 12,
+    "g": 44,
+    "b": 81,
+    "shelves_img": "rendered/shelves_CCJC14.png",
+    "walls_img": "rendered/walls_CCJC14.png"
+  },
+  {
+    "code": "CCJD31",
+    "url": "swatches/CCJD31.jpg",
+    "r": 27,
+    "g": 26,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCJD31.png",
+    "walls_img": "rendered/walls_CCJD31.png"
+  },
+  {
+    "code": "CCJD65",
+    "url": "swatches/CCJD65.jpg",
+    "r": 31,
+    "g": 31,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCJD65.png",
+    "walls_img": "rendered/walls_CCJD65.png"
+  },
+  {
+    "code": "CCJE59",
+    "url": "swatches/CCJE59.jpg",
+    "r": 29,
+    "g": 31,
+    "b": 26,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCJE59.png",
+    "walls_img": "rendered/walls_CCJE59.png"
+  },
+  {
+    "code": "CCJE60",
+    "url": "swatches/CCJE60.jpg",
+    "r": 17,
+    "g": 47,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJE60.png",
+    "walls_img": "rendered/walls_CCJE60.png"
+  },
+  {
+    "code": "CCJE61",
+    "url": "swatches/CCJE61.jpg",
+    "r": 13,
+    "g": 43,
+    "b": 79,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJE61.png",
+    "walls_img": "rendered/walls_CCJE61.png"
+  },
+  {
+    "code": "CCJE62",
+    "url": "swatches/CCJE62.jpg",
+    "r": 15,
+    "g": 48,
+    "b": 79,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCJE62.png",
+    "walls_img": "rendered/walls_CCJE62.png"
+  },
+  {
+    "code": "CCK321",
+    "url": "swatches/CCK321.jpg",
+    "category": "blue",
+    "r": 59,
+    "g": 81,
+    "b": 127,
+    "shelves_img": "rendered/shelves_CCK321.png",
+    "walls_img": "rendered/walls_CCK321.png"
+  },
+  {
+    "code": "CCK323",
+    "url": "swatches/CCK323.jpg",
+    "r": 58,
+    "g": 73,
+    "b": 120,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCK323.png",
+    "walls_img": "rendered/walls_CCK323.png"
+  },
+  {
+    "code": "CCK324",
+    "url": "swatches/CCK324.jpg",
+    "r": 155,
+    "g": 15,
+    "b": 41,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCK324.png",
+    "walls_img": "rendered/walls_CCK324.png"
+  },
+  {
+    "code": "CCK326",
+    "url": "swatches/CCK326.jpg",
+    "r": 53,
+    "g": 77,
+    "b": 127,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCK326.png",
+    "walls_img": "rendered/walls_CCK326.png"
+  },
+  {
+    "code": "CCKB81",
+    "url": "swatches/CCKB81.jpg",
+    "r": 94,
+    "g": 161,
+    "b": 18,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCKB81.png",
+    "walls_img": "rendered/walls_CCKB81.png"
+  },
+  {
+    "code": "CCKB96",
+    "url": "swatches/CCKB96.jpg",
+    "r": 49,
+    "g": 50,
+    "b": 52,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCKB96.png",
+    "walls_img": "rendered/walls_CCKB96.png"
+  },
+  {
+    "code": "CCKC11",
+    "url": "swatches/CCKC11.jpg",
+    "r": 51,
+    "g": 43,
+    "b": 40,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCKC11.png",
+    "walls_img": "rendered/walls_CCKC11.png"
+  },
+  {
+    "code": "CCKD31",
+    "url": "swatches/CCKD31.jpg",
+    "r": 40,
+    "g": 39,
+    "b": 40,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCKD31.png",
+    "walls_img": "rendered/walls_CCKD31.png"
+  },
+  {
+    "code": "CCKD65",
+    "url": "swatches/CCKD65.jpg",
+    "category": "yellow",
+    "r": 51,
+    "g": 50,
+    "b": 41,
+    "shelves_img": "rendered/shelves_CCKD65.png",
+    "walls_img": "rendered/walls_CCKD65.png"
+  },
+  {
+    "code": "CCKE59",
+    "url": "swatches/CCKE59.jpg",
+    "r": 47,
+    "g": 51,
+    "b": 40,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCKE59.png",
+    "walls_img": "rendered/walls_CCKE59.png"
+  },
+  {
+    "code": "CCKE60",
+    "url": "swatches/CCKE60.jpg",
+    "r": 60,
+    "g": 80,
+    "b": 118,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCKE60.png",
+    "walls_img": "rendered/walls_CCKE60.png"
+  },
+  {
+    "code": "CCKE61",
+    "url": "swatches/CCKE61.jpg",
+    "r": 50,
+    "g": 69,
+    "b": 117,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCKE61.png",
+    "walls_img": "rendered/walls_CCKE61.png"
+  },
+  {
+    "code": "CCKE62",
+    "url": "swatches/CCKE62.jpg",
+    "r": 55,
+    "g": 81,
+    "b": 117,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCKE62.png",
+    "walls_img": "rendered/walls_CCKE62.png"
+  },
+  {
+    "code": "CCL321",
+    "url": "swatches/CCL321.jpg",
+    "r": 16,
+    "g": 45,
+    "b": 78,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCL321.png",
+    "walls_img": "rendered/walls_CCL321.png"
+  },
+  {
+    "code": "CCL323",
+    "url": "swatches/CCL323.jpg",
+    "r": 13,
+    "g": 42,
+    "b": 79,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCL323.png",
+    "walls_img": "rendered/walls_CCL323.png"
+  },
+  {
+    "code": "CCL324",
+    "url": "swatches/CCL324.jpg",
+    "r": 95,
+    "g": 16,
+    "b": 33,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCL324.png",
+    "walls_img": "rendered/walls_CCL324.png"
+  },
+  {
+    "code": "CCL326",
+    "url": "swatches/CCL326.jpg",
+    "r": 11,
+    "g": 44,
+    "b": 80,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCL326.png",
+    "walls_img": "rendered/walls_CCL326.png"
+  },
+  {
+    "code": "CCLB81",
+    "url": "swatches/CCLB81.jpg",
+    "r": 15,
+    "g": 79,
+    "b": 54,
+    "category": "green",
+    "shelves_img": "rendered/shelves_CCLB81.png",
+    "walls_img": "rendered/walls_CCLB81.png"
+  },
+  {
+    "code": "CCLB96",
+    "url": "swatches/CCLB96.jpg",
+    "r": 30,
+    "g": 30,
+    "b": 30,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCLB96.png",
+    "walls_img": "rendered/walls_CCLB96.png"
+  },
+  {
+    "code": "CCLC11",
+    "url": "swatches/CCLC11.jpg",
+    "category": "neutral",
+    "r": 31,
+    "g": 26,
+    "b": 23,
+    "shelves_img": "rendered/shelves_CCLC11.png",
+    "walls_img": "rendered/walls_CCLC11.png"
+  },
+  {
+    "code": "CCLD31",
+    "url": "swatches/CCLD31.jpg",
+    "r": 26,
+    "g": 24,
+    "b": 24,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCLD31.png",
+    "walls_img": "rendered/walls_CCLD31.png"
+  },
+  {
+    "code": "CCLD65",
+    "url": "swatches/CCLD65.jpg",
+    "r": 31,
+    "g": 30,
+    "b": 24,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCLD65.png",
+    "walls_img": "rendered/walls_CCLD65.png"
+  },
+  {
+    "code": "CCLE59",
+    "url": "swatches/CCLE59.jpg",
+    "category": "neutral",
+    "r": 29,
+    "g": 31,
+    "b": 24,
+    "shelves_img": "rendered/shelves_CCLE59.png",
+    "walls_img": "rendered/walls_CCLE59.png"
+  },
+  {
+    "code": "CCLE60",
+    "url": "swatches/CCLE60.jpg",
+    "r": 14,
+    "g": 46,
+    "b": 76,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCLE60.png",
+    "walls_img": "rendered/walls_CCLE60.png"
+  },
+  {
+    "code": "CCLE61",
+    "url": "swatches/CCLE61.jpg",
+    "r": 10,
+    "g": 39,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCLE61.png",
+    "walls_img": "rendered/walls_CCLE61.png"
+  },
+  {
+    "code": "CCLE62",
+    "url": "swatches/CCLE62.jpg",
+    "r": 12,
+    "g": 46,
+    "b": 75,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCLE62.png",
+    "walls_img": "rendered/walls_CCLE62.png"
+  },
+  {
+    "code": "CCMC14",
+    "url": "swatches/CCMC14.jpg",
+    "category": "neutral",
+    "r": 46,
+    "g": 48,
+    "b": 52,
+    "shelves_img": "rendered/shelves_CCMC14.png",
+    "walls_img": "rendered/walls_CCMC14.png"
+  },
+  {
+    "code": "CCPC14",
+    "url": "swatches/CCPC14.jpg",
+    "r": 46,
+    "g": 62,
+    "b": 78,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCPC14.png",
+    "walls_img": "rendered/walls_CCPC14.png"
+  },
+  {
+    "code": "CCQC14",
+    "url": "swatches/CCQC14.jpg",
+    "r": 44,
+    "g": 48,
+    "b": 55,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCQC14.png",
+    "walls_img": "rendered/walls_CCQC14.png"
+  },
+  {
+    "code": "CCRC14",
+    "url": "swatches/CCRC14.jpg",
+    "r": 48,
+    "g": 51,
+    "b": 56,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCRC14.png",
+    "walls_img": "rendered/walls_CCRC14.png"
+  },
+  {
+    "code": "CCW321",
+    "url": "swatches/CCW321.jpg",
+    "r": 29,
+    "g": 58,
+    "b": 99,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCW321.png",
+    "walls_img": "rendered/walls_CCW321.png"
+  },
+  {
+    "code": "CCW323",
+    "url": "swatches/CCW323.jpg",
+    "r": 29,
+    "g": 53,
+    "b": 95,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCW323.png",
+    "walls_img": "rendered/walls_CCW323.png"
+  },
+  {
+    "code": "CCW324",
+    "url": "swatches/CCW324.jpg",
+    "r": 116,
+    "g": 11,
+    "b": 33,
+    "category": "red",
+    "shelves_img": "rendered/shelves_CCW324.png",
+    "walls_img": "rendered/walls_CCW324.png"
+  },
+  {
+    "code": "CCW326",
+    "url": "swatches/CCW326.jpg",
+    "r": 26,
+    "g": 55,
+    "b": 99,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCW326.png",
+    "walls_img": "rendered/walls_CCW326.png"
+  },
+  {
+    "code": "CCWB81",
+    "url": "swatches/CCWB81.jpg",
+    "category": "green",
+    "r": 44,
+    "g": 113,
+    "b": 37,
+    "shelves_img": "rendered/shelves_CCWB81.png",
+    "walls_img": "rendered/walls_CCWB81.png"
+  },
+  {
+    "code": "CCWB96",
+    "url": "swatches/CCWB96.jpg",
+    "r": 34,
+    "g": 35,
+    "b": 35,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCWB96.png",
+    "walls_img": "rendered/walls_CCWB96.png"
+  },
+  {
+    "code": "CCWC11",
+    "url": "swatches/CCWC11.jpg",
+    "r": 35,
+    "g": 31,
+    "b": 29,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCWC11.png",
+    "walls_img": "rendered/walls_CCWC11.png"
+  },
+  {
+    "code": "CCWC14",
+    "url": "swatches/CCWC14.jpg",
+    "category": "blue",
+    "r": 29,
+    "g": 57,
+    "b": 100,
+    "shelves_img": "rendered/shelves_CCWC14.png",
+    "walls_img": "rendered/walls_CCWC14.png"
+  },
+  {
+    "code": "CCWD31",
+    "url": "swatches/CCWD31.jpg",
+    "r": 29,
+    "g": 29,
+    "b": 29,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCWD31.png",
+    "walls_img": "rendered/walls_CCWD31.png"
+  },
+  {
+    "code": "CCWD65",
+    "url": "swatches/CCWD65.jpg",
+    "r": 35,
+    "g": 35,
+    "b": 29,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCWD65.png",
+    "walls_img": "rendered/walls_CCWD65.png"
+  },
+  {
+    "code": "CCWE59",
+    "url": "swatches/CCWE59.jpg",
+    "r": 33,
+    "g": 36,
+    "b": 29,
+    "category": "neutral",
+    "shelves_img": "rendered/shelves_CCWE59.png",
+    "walls_img": "rendered/walls_CCWE59.png"
+  },
+  {
+    "code": "CCWE60",
+    "url": "swatches/CCWE60.jpg",
+    "r": 30,
+    "g": 57,
+    "b": 94,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCWE60.png",
+    "walls_img": "rendered/walls_CCWE60.png"
+  },
+  {
+    "code": "CCWE61",
+    "url": "swatches/CCWE61.jpg",
+    "r": 25,
+    "g": 50,
+    "b": 93,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCWE61.png",
+    "walls_img": "rendered/walls_CCWE61.png"
+  },
+  {
+    "code": "CCWE62",
+    "url": "swatches/CCWE62.jpg",
+    "r": 28,
+    "g": 58,
+    "b": 93,
+    "category": "blue",
+    "shelves_img": "rendered/shelves_CCWE62.png",
+    "walls_img": "rendered/walls_CCWE62.png"
+  }
+]
