@@ -701,6 +701,7 @@ header {
     border-radius: 0 !important;
     box-shadow: none !important;
     aspect-ratio: none !important;
+    align-self: stretch !important;
   }
   
   .vis-layer {
@@ -740,6 +741,19 @@ header {
   .header-badge {
     align-self: flex-start !important;
     margin-left: 0 !important;
+  }
+  
+  .mode-toggle-group {
+    grid-template-columns: 1fr !important;
+    gap: 0.25rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .mode-btn {
+    padding: 0.75rem 1rem !important;
+    font-size: 0.85rem !important;
+    width: 100% !important;
+    text-align: center !important;
   }
   
   .catalog-toggle-group {

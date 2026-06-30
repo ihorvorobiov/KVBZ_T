@@ -2562,5 +2562,32 @@
     "b": 87,
     "category": "neutral",
     "catalog": "Camira Fusion"
+  },
+  {
+    "code": "CUSTOM01",
+    "url": "swatches/CUSTOM01.jpg",
+    "r": 115,
+    "g": 48,
+    "b": 23,
+    "category": "custom",
+    "catalog": "Camira"
+  },
+  {
+    "code": "CUSTOM01",
+    "url": "swatches/CUSTOM01.jpg",
+    "r": 115,
+    "g": 48,
+    "b": 23,
+    "category": "custom",
+    "catalog": "Camira Fusion"
+  },
+  {
+    "code": "CUSTOM01",
+    "url": "swatches/CUSTOM01.jpg",
+    "r": 115,
+    "g": 48,
+    "b": 23,
+    "category": "custom",
+    "catalog": "Lantal"
   }
 ]
