@@ -672,22 +672,25 @@ header {
 
 /* Mobile Styling */
 @media (max-width: 1024px) {
-  body {
-    height: auto;
-    overflow: auto;
-    overflow-y: visible;
+  html, body {
+    height: auto !important;
+    overflow: auto !important;
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
   }
 
   .app-container {
     grid-template-columns: 1fr;
-    height: auto;
-    overflow-y: visible;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
   }
   
   .visualizer-section {
     padding: 1rem;
     height: 60vh;
     min-height: 320px;
+    overflow: visible !important;
   }
   
   .visualizer-container {
@@ -695,16 +698,22 @@ header {
   }
   
   .configurator-sidebar {
-    height: auto;
+    height: auto !important;
+    overflow: visible !important;
     border-left: none;
     border-top: 1px solid var(--panel-border);
   }
   
   .sidebar-content {
-    overflow-y: visible;
+    flex: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    overflow-y: visible !important;
+    padding: 1rem;
   }
   
   .swatches-grid {
-    max-height: 350px;
+    max-height: none !important;
+    overflow: visible !important;
   }
 }
