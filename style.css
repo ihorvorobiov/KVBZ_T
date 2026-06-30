@@ -696,9 +696,18 @@ header {
   .visualizer-container {
     width: 100% !important;
     max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    aspect-ratio: 2540 / 1664 !important;
+    aspect-ratio: none !important;
+  }
+  
+  .vis-layer {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
   }
   
   .configurator-sidebar {
@@ -733,8 +742,15 @@ header {
     margin-left: 0 !important;
   }
   
+  .catalog-toggle-group {
+    grid-template-columns: 1fr !important;
+    gap: 0.25rem !important;
+  }
+  
   .catalog-btn {
-    padding: 0.5rem 0.25rem !important;
-    font-size: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.85rem !important;
+    width: 100% !important;
+    text-align: center !important;
   }
 }
