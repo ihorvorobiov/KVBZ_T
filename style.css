@@ -24,10 +24,10 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-primary);
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow: hidden;
   background-image: 
     radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.05) 0%, transparent 40%),
     radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.03) 0%, transparent 40%);
@@ -95,7 +95,6 @@ header {
   display: grid;
   grid-template-columns: 1fr 480px;
   flex: 1;
-  height: calc(100vh - 75px);
   overflow: hidden;
 }
 
@@ -108,14 +107,14 @@ header {
   justify-content: center;
   background: radial-gradient(circle at center, rgba(30, 32, 40, 0.4) 0%, rgba(13, 14, 18, 0.9) 100%);
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .visualizer-container {
   position: relative;
   width: 100%;
-  max-width: 960px;
-  aspect-ratio: 1000 / 625;
+  max-width: calc((100vh - 150px) * 2540 / 1664);
+  aspect-ratio: 2540 / 1664;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 
@@ -636,6 +635,39 @@ header {
 
 .info-banner-icon {
   font-size: 1rem;
+}
+
+/* Catalog Switcher */
+.catalog-toggle-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.25rem;
+  border-radius: 8px;
+}
+
+.catalog-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.catalog-btn:hover {
+  color: white;
+}
+
+.catalog-btn.active {
+  background: var(--accent-color);
+  color: white;
+  box-shadow: 0 4px 12px var(--accent-glow);
 }
 
 /* Mobile Styling */

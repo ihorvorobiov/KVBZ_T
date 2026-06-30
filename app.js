@@ -9,7 +9,8 @@ let state = {
   fabrics: [], // Full catalog loaded from fabrics.json
   filters: {
     search: '',
-    category: 'all'
+    category: 'all',
+    catalog: 'Camira'
   }
 };
 
@@ -44,18 +45,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 1. Preload base images and masks
     await preloadBaseAssets();
     
-    showLoading(true, 'Завантаження каталогу тканин (193 кольори)...');
+    showLoading(true, 'Завантаження каталогу тканин...');
     
     // 2. Load fabrics catalog
     const response = await fetch('fabrics.json');
     const allFabrics = await response.json();
     
-    // Merge neutral GRAY at the beginning, then include all 193 catalog fabrics
+    // Merge neutral GRAY at the beginning, then include all catalog fabrics
     state.fabrics = [grayFabric, ...allFabrics];
     
     // Set default selected fabrics to neutral GRAY (сірий колір)
     state.selectedFabrics.shelves = grayFabric;
     state.selectedFabrics.walls = grayFabric;
+    
+    // Update Catalog UI texts (description, badge counters)
+    updateCatalogUI();
     
     // 3. Render UI controls
     renderSwatches();
@@ -203,11 +207,57 @@ function getSwatchImage(url) {
     const img = new Image();
     img.src = url;
     img.onload = () => {
+      // Automatically detect if the swatch has vertical stripes
+      img.needsRotation = detectVerticalOrientation(img);
       swatchCache[url] = img;
       resolve(img);
     };
     img.onerror = () => reject(new Error(`Failed to load swatch: ${url}`));
   });
+}
+
+// Detect if fabric swatch has vertical stripes (requires 90deg rotation to become horizontal)
+function detectVerticalOrientation(img) {
+  try {
+    const canvas = document.createElement('canvas');
+    canvas.width = 64;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(img, 0, 0, 64, 64);
+    
+    const imgData = ctx.getImageData(0, 0, 64, 64);
+    const data = imgData.data;
+    
+    // Convert to grayscale
+    const gray = new Uint8Array(64 * 64);
+    for (let i = 0; i < 64 * 64; i++) {
+      const r = data[i * 4];
+      const g = data[i * 4 + 1];
+      const b = data[i * 4 + 2];
+      gray[i] = Math.round(0.299 * r + 0.587 * g + 0.114 * b);
+    }
+    
+    let diffX = 0;
+    let diffY = 0;
+    
+    for (let y = 0; y < 64; y++) {
+      for (let x = 0; x < 63; x++) {
+        diffX += Math.abs(gray[y * 64 + x + 1] - gray[y * 64 + x]);
+      }
+    }
+    
+    for (let y = 0; y < 63; y++) {
+      for (let x = 0; x < 64; x++) {
+        diffY += Math.abs(gray[(y + 1) * 64 + x] - gray[y * 64 + x]);
+      }
+    }
+    
+    // ratio > 1.05 means vertical lines (horizontal changes are larger than vertical changes)
+    return diffX > diffY * 1.05;
+  } catch (e) {
+    console.error("Orientation detection failed (possibly CORS cross-origin taint):", e);
+    return false;
+  }
 }
 
 // Temporary canvases to offload composition memory
@@ -242,20 +292,38 @@ async function renderCanvasDesign() {
     if (wallsFabric && wallsFabric.code !== 'GRAY') {
       const swatch = await getSwatchImage(wallsFabric.url);
       
-      // Step A: Create rotated and scaled swatch (scale = 0.32)
-      const scale = 0.32;
+      // Step A: Create rotated and scaled swatch (smaller scale for Camira)
+      const isCamira = wallsFabric.catalog && wallsFabric.catalog.startsWith('Camira');
+      const scale = isCamira ? 0.22 : 0.32;
       const swatchCanvas = document.createElement('canvas');
-      swatchCanvas.width = Math.round(swatch.height * scale);
-      swatchCanvas.height = Math.round(swatch.width * scale);
+      const rotateSwatch = swatch.needsRotation;
+      
+      if (rotateSwatch) {
+        swatchCanvas.width = Math.round(swatch.height * scale);
+        swatchCanvas.height = Math.round(swatch.width * scale);
+      } else {
+        swatchCanvas.width = Math.round(swatch.width * scale);
+        swatchCanvas.height = Math.round(swatch.height * scale);
+      }
+      
       const sCtx = swatchCanvas.getContext('2d');
       
-      // Apply GPU-accelerated contrast and saturation filters
-      sCtx.filter = 'saturate(1.35) contrast(1.1)';
+      // Apply GPU-accelerated contrast and saturation filters (disabled for Lantal)
+      if (wallsFabric.catalog === 'Lantal') {
+        sCtx.filter = 'none';
+      } else {
+        sCtx.filter = 'saturate(1.35) contrast(1.1)';
+      }
       
-      // Rotate 90 degrees clockwise Lossless
-      sCtx.translate(swatchCanvas.width, 0);
-      sCtx.rotate(Math.PI / 2);
-      sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.height, swatchCanvas.width);
+      if (rotateSwatch) {
+        // Rotate 90 degrees clockwise Lossless
+        sCtx.translate(swatchCanvas.width, 0);
+        sCtx.rotate(Math.PI / 2);
+        sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.height, swatchCanvas.width);
+      } else {
+        // Draw flat without rotation
+        sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.width, swatchCanvas.height);
+      }
       
       // Step B: Tile and shear walls fabric onto offCanvasTiled (padded)
       ctxTiled.clearRect(0, 0, W, H);
@@ -269,9 +337,10 @@ async function renderCanvasDesign() {
       ctxTiled.fillRect(0, 0, W, H + 2 * padY);
       ctxTiled.restore();
       
-      // Step C: Multiply tiled fabric with bright base on offCanvasLayer
+      // Step C: Multiply tiled fabric with base on offCanvasLayer (use bright base to avoid darkening)
       ctxLayer.clearRect(0, 0, W, H);
-      ctxLayer.drawImage(assets.baseGrayBright, 0, 0);
+      const baseImg = assets.baseGrayBright;
+      ctxLayer.drawImage(baseImg, 0, 0);
       ctxLayer.globalCompositeOperation = 'multiply';
       ctxLayer.drawImage(offCanvasTiled, 0, 0);
       
@@ -289,16 +358,35 @@ async function renderCanvasDesign() {
     if (shelvesFabric && shelvesFabric.code !== 'GRAY') {
       const swatch = await getSwatchImage(shelvesFabric.url);
       
-      // Step A: Create rotated & scaled swatch canvas
-      const scale = 0.32;
+      // Step A: Create rotated & scaled swatch canvas (smaller scale for Camira)
+      const isCamira = shelvesFabric.catalog && shelvesFabric.catalog.startsWith('Camira');
+      const scale = isCamira ? 0.22 : 0.32;
       const swatchCanvas = document.createElement('canvas');
-      swatchCanvas.width = Math.round(swatch.height * scale);
-      swatchCanvas.height = Math.round(swatch.width * scale);
+      const rotateSwatch = swatch.needsRotation;
+      
+      if (rotateSwatch) {
+        swatchCanvas.width = Math.round(swatch.height * scale);
+        swatchCanvas.height = Math.round(swatch.width * scale);
+      } else {
+        swatchCanvas.width = Math.round(swatch.width * scale);
+        swatchCanvas.height = Math.round(swatch.height * scale);
+      }
+      
       const sCtx = swatchCanvas.getContext('2d');
-      sCtx.filter = 'saturate(1.35) contrast(1.1)';
-      sCtx.translate(swatchCanvas.width, 0);
-      sCtx.rotate(Math.PI / 2);
-      sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.height, swatchCanvas.width);
+      
+      if (shelvesFabric.catalog === 'Lantal') {
+        sCtx.filter = 'none';
+      } else {
+        sCtx.filter = 'saturate(1.35) contrast(1.1)';
+      }
+      
+      if (rotateSwatch) {
+        sCtx.translate(swatchCanvas.width, 0);
+        sCtx.rotate(Math.PI / 2);
+        sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.height, swatchCanvas.width);
+      } else {
+        sCtx.drawImage(swatch, 0, 0, swatch.width, swatch.height, 0, 0, swatchCanvas.width, swatchCanvas.height);
+      }
       
       // Render the three sub-layers for shelves/seats perspective slants
       const subLayers = [
@@ -318,7 +406,8 @@ async function renderCanvasDesign() {
         ctxTiled.restore();
         
         ctxLayer.clearRect(0, 0, W, H);
-        ctxLayer.drawImage(assets.baseGrayBright, 0, 0);
+        const baseImg = assets.baseGrayBright;
+        ctxLayer.drawImage(baseImg, 0, 0);
         ctxLayer.globalCompositeOperation = 'multiply';
         ctxLayer.drawImage(offCanvasTiled, 0, 0);
         
@@ -342,9 +431,11 @@ function renderSwatches() {
   grid.innerHTML = '';
   
   const filtered = state.fabrics.filter(fab => {
+    const isGray = fab.code === 'GRAY';
+    const matchesCatalog = isGray || fab.catalog === state.filters.catalog;
     const matchesSearch = fab.code.toLowerCase().includes(state.filters.search.toLowerCase());
     const matchesCategory = state.filters.category === 'all' || fab.category === state.filters.category;
-    return matchesSearch && matchesCategory;
+    return matchesCatalog && matchesSearch && matchesCategory;
   });
   
   if (filtered.length === 0) {
@@ -364,7 +455,7 @@ function renderSwatches() {
     card.className = `swatch-card ${isSelected ? 'active' : ''}`;
     card.dataset.code = fab.code;
     
-    let displayName = `Aura ${fab.code}`;
+    let displayName = `${fab.catalog || 'Camira'} ${fab.code}`;
     if (fab.code === 'GRAY') displayName = 'Базовий Сірий';
     
     card.title = displayName;
@@ -384,8 +475,9 @@ function renderSwatches() {
 
 // Render dynamic filter tabs count
 function renderFilters() {
-  const counts = { all: state.fabrics.length };
-  state.fabrics.forEach(f => {
+  const catalogFabrics = state.fabrics.filter(f => f.code === 'GRAY' || f.catalog === state.filters.catalog);
+  const counts = { all: catalogFabrics.length };
+  catalogFabrics.forEach(f => {
     counts[f.category] = (counts[f.category] || 0) + 1;
   });
   
@@ -462,8 +554,8 @@ function updateSummary() {
   const shelvesFabric = state.selectedFabrics.shelves;
   const wallsFabric = state.selectedFabrics.walls;
   
-  shelvesSummary.textContent = shelvesFabric ? (shelvesFabric.code === 'GRAY' ? 'Базовий Сірий' : `Aura ${shelvesFabric.code}`) : 'Не вибрано';
-  wallsSummary.textContent = wallsFabric ? (wallsFabric.code === 'GRAY' ? 'Базовий Сірий' : `Aura ${wallsFabric.code}`) : 'Не вибрано';
+  shelvesSummary.textContent = shelvesFabric ? (shelvesFabric.code === 'GRAY' ? 'Базовий Сірий' : `${shelvesFabric.catalog || 'Camira'} ${shelvesFabric.code}`) : 'Не вибрано';
+  wallsSummary.textContent = wallsFabric ? (wallsFabric.code === 'GRAY' ? 'Базовий Сірий' : `${wallsFabric.catalog || 'Camira'} ${wallsFabric.code}`) : 'Не вибрано';
   
   const shelvesTag = document.getElementById('tag-shelves');
   const wallsTag = document.getElementById('tag-walls');
@@ -532,8 +624,63 @@ function setupEventListeners() {
     const wallsCode = state.selectedFabrics.walls?.code || 'none';
     
     const link = document.createElement('a');
-    link.download = `compartment_design_${shelvesCode}_${wallsCode}.png`;
+    link.download = `compartment_design_${shelvesCode.replace(/\s+/g, '_')}_${wallsCode.replace(/\s+/g, '_')}.png`;
     link.href = canvas.toDataURL('image/png');
     link.click();
   });
+  
+  // 6. Catalog Switcher Buttons
+  document.querySelectorAll('.catalog-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      if (btn.classList.contains('active')) return;
+      
+      document.querySelectorAll('.catalog-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.filters.catalog = btn.dataset.catalog;
+      
+      // Update catalog specific texts and descriptors
+      updateCatalogUI();
+      
+      // Reset active category filter to 'all'
+      document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      const allChip = document.querySelector('.filter-chip[data-category="all"]');
+      if (allChip) allChip.classList.add('active');
+      state.filters.category = 'all';
+      
+      renderSwatches();
+      renderFilters();
+    });
+  });
+}
+
+// Update UI text descriptors based on active catalog
+function updateCatalogUI() {
+  const headerDesc = document.getElementById('header-desc');
+  const headerBadge = document.getElementById('header-badge');
+  const catalogTitle = document.getElementById('catalog-title');
+  const infoBannerText = document.getElementById('info-banner-text');
+  const searchInput = document.getElementById('search-input');
+  
+  const catalogFabrics = state.fabrics.filter(f => f.code !== 'GRAY' && f.catalog === state.filters.catalog);
+  const count = catalogFabrics.length;
+  
+  if (state.filters.catalog === 'Camira') {
+    if (headerDesc) headerDesc.textContent = 'Інтерактивний підбір тканин Aura від Camira Fabrics';
+    if (headerBadge) headerBadge.textContent = `Колекція Aura (${count} кольорів)`;
+    if (catalogTitle) catalogTitle.textContent = 'Каталог тканин Camira Aura';
+    if (infoBannerText) infoBannerText.textContent = 'Всі зразки Camira підвантажуються в реальному часі безпосередньо з оригінального сховища Camira Fabrics.';
+    if (searchInput) searchInput.placeholder = 'Пошук тканини за кодом (наприклад, CAA321)...';
+  } else if (state.filters.catalog === 'Camira Fusion') {
+    if (headerDesc) headerDesc.textContent = 'Інтерактивний підбір тканин Fusion від Camira Fabrics';
+    if (headerBadge) headerBadge.textContent = `Колекція Fusion (${count} кольорів)`;
+    if (catalogTitle) catalogTitle.textContent = 'Каталог тканин Camira Fusion';
+    if (infoBannerText) infoBannerText.textContent = 'Текстури Camira Fusion завантажуються локально з офіційного каталогу Camira Fabrics.';
+    if (searchInput) searchInput.placeholder = 'Пошук тканини за кодом (наприклад, NBRB09)...';
+  } else {
+    if (headerDesc) headerDesc.textContent = 'Інтерактивний підбір тканин Best Buys від Lantal Textiles';
+    if (headerBadge) headerBadge.textContent = `Колекція Railway (${count} кольорів)`;
+    if (catalogTitle) catalogTitle.textContent = 'Каталог тканин Lantal Railway';
+    if (infoBannerText) infoBannerText.textContent = 'Текстури Lantal завантажуються локально з офіційного залізничного каталогу Best Buys.';
+    if (searchInput) searchInput.placeholder = 'Пошук тканини за артикулом (наприклад, 3857 LS)...';
+  }
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Інтерактивний Візуалізатор Купе | Camira Aura</title>
+  <title>Інтерактивний Візуалізатор Купе | Camira & Lantal</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,10 +14,10 @@
       <div class="logo-icon">K</div>
       <div class="logo-text">
         <h1>Візуалізатор Пасажирського Купе</h1>
-        <p>Інтерактивний підбір тканин Aura від Camira Fabrics</p>
+        <p id="header-desc">Інтерактивний підбір тканин Aura від Camira Fabrics</p>
       </div>
     </div>
-    <div class="header-badge">Колекція Aura (200 кольорів)</div>
+    <div class="header-badge" id="header-badge">Колекція Aura (200 кольорів)</div>
   </header>
 
   <!-- Main Work App Area -->
@@ -35,11 +35,7 @@
           <div id="loader-text">Завантаження...</div>
         </div>
       </div>
-      
-      <div class="viewer-overlay">
-        <div class="pulse-dot"></div>
-        <span>Інтерактивний 2D рендер купе • Натискайте на тканини справа для миттєвої примірки</span>
-      </div>
+
     </div>
 
     <!-- Right Column: Configurations & Controls Sidebar -->
@@ -90,9 +86,19 @@
           </div>
         </div>
 
+        <!-- Catalog Selection Card -->
+        <div class="control-card" style="margin-bottom: 1.5rem;">
+          <h3 class="section-title">Каталог тканин</h3>
+          <div class="catalog-toggle-group">
+            <button class="catalog-btn active" data-catalog="Camira">Camira Aura</button>
+            <button class="catalog-btn" data-catalog="Camira Fusion">Camira Fusion</button>
+            <button class="catalog-btn" data-catalog="Lantal">Lantal Railway</button>
+          </div>
+        </div>
+
         <!-- Catalog Filter and Swatches Wrapper -->
         <div class="catalog-controls">
-          <h3 class="section-title">Каталог тканин Aura</h3>
+          <h3 class="section-title" id="catalog-title">Каталог тканин Camira Aura</h3>
           
           <!-- Search Bar -->
           <div class="search-wrapper">
@@ -143,7 +149,7 @@
         
         <div class="info-banner">
           <span class="info-banner-icon">💡</span>
-          <span>Всі зразки підвантажуються в реальному часі безпосередньо з оригінального сховища Camira Fabrics.</span>
+          <span id="info-banner-text">Всі зразки підвантажуються в реальному часі безпосередньо з оригінального сховища Camira Fabrics.</span>
         </div>
 
         <div class="selected-summary">
