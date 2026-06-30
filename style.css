@@ -687,29 +687,13 @@ header {
   }
   
   .visualizer-section {
-    padding: 0 !important;
-    height: auto !important;
-    min-height: 0 !important;
-    overflow: visible !important;
+    padding: 1rem !important;
+    height: 60vh !important;
+    min-height: 320px !important;
   }
   
-  .visualizer-container {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    max-height: none !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    aspect-ratio: none !important;
-    align-self: stretch !important;
-  }
-  
-  .vis-layer {
-    position: relative !important;
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-  }
+  /* We remove visualizer-container and vis-layer overrides from mobile media query,
+     so they inherit the correct responsive desktop styling (absolute contain and rounded corners) */
   
   .configurator-sidebar {
     height: auto !important;
