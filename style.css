@@ -687,14 +687,18 @@ header {
   }
   
   .visualizer-section {
-    padding: 1rem;
-    height: 60vh;
-    min-height: 320px;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
     overflow: visible !important;
   }
   
   .visualizer-container {
-    max-width: calc((60vh - 2rem) * 2540 / 1664);
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    aspect-ratio: 2540 / 1664 !important;
   }
   
   .configurator-sidebar {
