@@ -2589,5 +2589,491 @@
     "b": 23,
     "category": "custom",
     "catalog": "Lantal"
+  },
+  {
+    "code": "WEBAR FH - 9152 BLAUGELB",
+    "url": "swatches/kneitz/6874-9152d-555x555.jpeg",
+    "r": 101,
+    "g": 127,
+    "b": 163,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WEBAR FH - 9168 GRAU",
+    "url": "swatches/kneitz/6874-9168d-555x555.jpeg",
+    "r": 126,
+    "g": 116,
+    "b": 104,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WECK FH - 9153 ROT",
+    "url": "swatches/kneitz/6877-9153d-555x555.jpeg",
+    "r": 153,
+    "g": 34,
+    "b": 35,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WECK FH - 9154 TÜRKIS",
+    "url": "swatches/kneitz/6877-9154d-555x555.jpeg",
+    "r": 34,
+    "g": 153,
+    "b": 151,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WECK FH - 9155 GRÜN",
+    "url": "swatches/kneitz/6877-9155d-555x555.jpeg",
+    "r": 37,
+    "g": 153,
+    "b": 35,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WECK FH - 9156 HONIG",
+    "url": "swatches/kneitz/6877-9156d-555x555.jpeg",
+    "r": 170,
+    "g": 115,
+    "b": 73,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6817 SILBER-BLAU",
+    "url": "swatches/kneitz/6828-6817d-555x555.jpeg",
+    "r": 217,
+    "g": 218,
+    "b": 197,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6818 BEIGE-ROT",
+    "url": "swatches/kneitz/6828-6818d-555x555.jpeg",
+    "r": 225,
+    "g": 193,
+    "b": 159,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6819 GELB-BLAU",
+    "url": "swatches/kneitz/6828-6819d-555x555.jpeg",
+    "r": 228,
+    "g": 205,
+    "b": 114,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6820 ANTHRAZIT-SILBER",
+    "url": "swatches/kneitz/6828-6820d-555x555.jpeg",
+    "r": 85,
+    "g": 85,
+    "b": 83,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6821 ANTHRAZIT-GRÜN",
+    "url": "swatches/kneitz/6828-6821d-555x555.jpeg",
+    "r": 72,
+    "g": 80,
+    "b": 76,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6822 SCHWARZ-ROT",
+    "url": "swatches/kneitz/6828-6822d-555x555.jpeg",
+    "r": 16,
+    "g": 1,
+    "b": 1,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6823 GRÜN-ANTHRAZIT",
+    "url": "swatches/kneitz/6828-6823d-555x555.jpeg",
+    "r": 6,
+    "g": 149,
+    "b": 83,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6824 BLAU",
+    "url": "swatches/kneitz/6828-6824d-555x555.jpeg",
+    "r": 60,
+    "g": 109,
+    "b": 234,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6825 DUNKELBLAU",
+    "url": "swatches/kneitz/6828-6825d-555x555.jpeg",
+    "r": 5,
+    "g": 30,
+    "b": 108,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6826 DUNKELROT-BEIGE",
+    "url": "swatches/kneitz/6828-6826d-555x555.jpeg",
+    "r": 157,
+    "g": 13,
+    "b": 11,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6827 ROT-SCHWARZ",
+    "url": "swatches/kneitz/6828-6827d-555x555.jpeg",
+    "r": 239,
+    "g": 1,
+    "b": 1,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DICOL FH - 6828 DUNKELBLAU-BEIGE",
+    "url": "swatches/kneitz/6828-6828d-555x555.jpeg",
+    "r": 15,
+    "g": 36,
+    "b": 101,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9153 ROT",
+    "url": "swatches/kneitz/6881-9153d-555x555.jpeg",
+    "r": 177,
+    "g": 60,
+    "b": 62,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9154 TÜRKIS",
+    "url": "swatches/kneitz/6881-9154d-555x555.jpeg",
+    "r": 60,
+    "g": 162,
+    "b": 161,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9155 GRÜN",
+    "url": "swatches/kneitz/6881-9155d-555x555.jpeg",
+    "r": 92,
+    "g": 172,
+    "b": 89,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9156 HONIG",
+    "url": "swatches/kneitz/6881-9156d-555x555.jpeg",
+    "r": 157,
+    "g": 110,
+    "b": 74,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9161 ROTGRAU",
+    "url": "swatches/kneitz/6881-9161d-555x555.jpeg",
+    "r": 177,
+    "g": 60,
+    "b": 62,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9162 TÜRKISGRAU",
+    "url": "swatches/kneitz/6881-9162d-555x555.jpeg",
+    "r": 60,
+    "g": 163,
+    "b": 161,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9163 GRÜNGRAU",
+    "url": "swatches/kneitz/6881-9163d-555x555.jpeg",
+    "r": 92,
+    "g": 173,
+    "b": 89,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9164 BLAU",
+    "url": "swatches/kneitz/6881-9164d-555x555.jpeg",
+    "r": 60,
+    "g": 80,
+    "b": 108,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKA FH - 9165 GRAU",
+    "url": "swatches/kneitz/6881-9165d-555x555.jpeg",
+    "r": 140,
+    "g": 140,
+    "b": 140,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DIMICOL FH - 9152 BLAUGELB",
+    "url": "swatches/kneitz/6827-9152d-555x555.jpeg",
+    "r": 7,
+    "g": 38,
+    "b": 83,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DIMICOL FH - 9167 ROTGRAU",
+    "url": "swatches/kneitz/6827-9167d-555x555.jpeg",
+    "r": 84,
+    "g": 5,
+    "b": 5,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DIMICOL FH - 9168 GRAU",
+    "url": "swatches/kneitz/6827-9168d-555x555.jpeg",
+    "r": 79,
+    "g": 78,
+    "b": 77,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DAVICOL FH - 6808 BLAU",
+    "url": "swatches/kneitz/6829-6808d-555x555.jpeg",
+    "r": 42,
+    "g": 72,
+    "b": 159,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DAVICOL FH - 9149 GRAU",
+    "url": "swatches/kneitz/6829-9149d-555x555.jpeg",
+    "r": 96,
+    "g": 95,
+    "b": 94,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DAVICOL FH - 9150 GRÜNGRAU",
+    "url": "swatches/kneitz/6829-9150d-555x555.jpeg",
+    "r": 44,
+    "g": 147,
+    "b": 58,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "DAVICOL FH - 9151 ROTGRAU",
+    "url": "swatches/kneitz/6829-9151d-555x555.jpeg",
+    "r": 188,
+    "g": 10,
+    "b": 10,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "VESNA-Z-FC - 752833 SCHWARZ",
+    "url": "swatches/kneitz/2424033-752833d-555x555.jpeg",
+    "r": 140,
+    "g": 140,
+    "b": 140,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "VIGGO-Z-FC - 754933 METROPOLGRAU",
+    "url": "swatches/kneitz/2444033-754933d-555x555.jpeg",
+    "r": 140,
+    "g": 140,
+    "b": 140,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "VIDAL-Z-FC - 754833 SCHWARZ-SCHIEFER",
+    "url": "swatches/kneitz/2434033-754833d-555x555.jpeg",
+    "r": 21,
+    "g": 21,
+    "b": 21,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WEBI FH - 9153 ROT",
+    "url": "swatches/kneitz/6873-9153d-555x555.jpeg",
+    "r": 132,
+    "g": 46,
+    "b": 48,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WEBI FH - 9154 TÜRKIS",
+    "url": "swatches/kneitz/6873-9154d-555x555.jpeg",
+    "r": 46,
+    "g": 132,
+    "b": 131,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WEBI FH - 9155 GRÜN",
+    "url": "swatches/kneitz/6873-9155d-555x555.jpeg",
+    "r": 49,
+    "g": 132,
+    "b": 47,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WEBI FH - 9156 HONIG",
+    "url": "swatches/kneitz/6873-9156d-555x555.jpeg",
+    "r": 144,
+    "g": 105,
+    "b": 75,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAD FH - 9157 ROT",
+    "url": "swatches/kneitz/6878-9157d-555x555.jpeg",
+    "r": 102,
+    "g": 4,
+    "b": 5,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAD FH - 9158 GRAU",
+    "url": "swatches/kneitz/6878-9158d-555x555.jpeg",
+    "r": 140,
+    "g": 140,
+    "b": 140,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAD FH - 9159 BLAU",
+    "url": "swatches/kneitz/6878-9159d-555x555.jpeg",
+    "r": 15,
+    "g": 45,
+    "b": 95,
+    "category": "blue",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAD FH - 9160 GRÜN",
+    "url": "swatches/kneitz/6878-9160d-555x555.jpeg",
+    "r": 16,
+    "g": 130,
+    "b": 58,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WASIS FH - 9153 ROT",
+    "url": "swatches/kneitz/6861-9153d-555x555.jpeg",
+    "r": 96,
+    "g": 68,
+    "b": 69,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WASIS FH - 9154 TÜRKIS",
+    "url": "swatches/kneitz/6861-9154d-555x555.jpeg",
+    "r": 69,
+    "g": 96,
+    "b": 96,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WASIS FH - 9155 GRÜN",
+    "url": "swatches/kneitz/6861-9155d-555x555.jpeg",
+    "r": 69,
+    "g": 96,
+    "b": 69,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WINOLA FH - 9153 ROT",
+    "url": "swatches/kneitz/6869-9153d-555x555.jpeg",
+    "r": 122,
+    "g": 53,
+    "b": 54,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WINOLA FH - 9154 TÜRKIS",
+    "url": "swatches/kneitz/6869-9154d-555x555.jpeg",
+    "r": 53,
+    "g": 122,
+    "b": 121,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WINOLA FH - 9155 GRÜN",
+    "url": "swatches/kneitz/6869-9155d-555x555.jpeg",
+    "r": 55,
+    "g": 122,
+    "b": 53,
+    "category": "green",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WINOLA FH - 9156 HONIG",
+    "url": "swatches/kneitz/6869-9156d-555x555.jpeg",
+    "r": 132,
+    "g": 100,
+    "b": 75,
+    "category": "neutral",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKOTO FH - 9167 ROTGRAU",
+    "url": "swatches/kneitz/6882-9167d-555x555.jpeg",
+    "r": 130,
+    "g": 52,
+    "b": 50,
+    "category": "red",
+    "catalog": "Kneitz"
+  },
+  {
+    "code": "WAKOTO FH - 9172 GRÜN",
+    "url": "swatches/kneitz/6882-9172d-555x555.jpeg",
+    "r": 72,
+    "g": 147,
+    "b": 94,
+    "category": "green",
+    "catalog": "Kneitz"
   }
 ]

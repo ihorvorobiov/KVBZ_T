@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Інтерактивний Візуалізатор Купе | Camira & Lantal</title>
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 
@@ -58,7 +58,6 @@
                 <span class="target-emoji">🛌</span>
                 <div>
                   <div class="target-name">Полиці та сидіння</div>
-                  <span style="font-size: 0.75rem; color: var(--text-secondary);">Спальні місця, нижній диван та спинка</span>
                 </div>
               </div>
               <div style="display: flex; align-items: center; gap: 0.5rem;">
@@ -73,7 +72,6 @@
                 <span class="target-emoji">🧱</span>
                 <div>
                   <div class="target-name">Стінові панелі та кишені</div>
-                  <span style="font-size: 0.75rem; color: var(--text-secondary);">Спинка полиці, органайзери та узголів'я</span>
                 </div>
               </div>
               <div style="display: flex; align-items: center; gap: 0.5rem;">
@@ -85,13 +83,46 @@
           </div>
         </div>
 
+        <!-- Pattern Size Card -->
+        <div class="control-card" style="margin-bottom: 1.5rem;">
+          <h3 class="section-title">Розмір візерунку</h3>
+          <div class="slider-container">
+            <div class="slider-header">
+              <span id="slider-label" class="slider-label">Масштаб: 100%</span>
+            </div>
+            <input type="range" id="scale-slider" min="0.3" max="2.5" step="0.05" value="1.0" class="custom-slider">
+          </div>
+        </div>
+
         <!-- Catalog Selection Card -->
         <div class="control-card" style="margin-bottom: 1.5rem;">
           <h3 class="section-title">Каталог тканин</h3>
-          <div class="catalog-toggle-group">
-            <button class="catalog-btn active" data-catalog="Camira">Camira Aura</button>
-            <button class="catalog-btn" data-catalog="Camira Fusion">Camira Fusion</button>
-            <button class="catalog-btn" data-catalog="Lantal">Lantal Railway</button>
+          <div class="catalog-radio-group">
+            <label class="catalog-radio-option active">
+              <input type="radio" name="catalog-selection" value="Camira" checked>
+              <span class="radio-checkmark"></span>
+              <span class="radio-text">Camira Aura</span>
+            </label>
+            <label class="catalog-radio-option">
+              <input type="radio" name="catalog-selection" value="Camira Fusion">
+              <span class="radio-checkmark"></span>
+              <span class="radio-text">Camira Fusion</span>
+            </label>
+            <label class="catalog-radio-option">
+              <input type="radio" name="catalog-selection" value="Lantal">
+              <span class="radio-checkmark"></span>
+              <span class="radio-text">Lantal Railway</span>
+            </label>
+            <label class="catalog-radio-option">
+              <input type="radio" name="catalog-selection" value="Kneitz">
+              <span class="radio-checkmark"></span>
+              <span class="radio-text">Kneitz Railway</span>
+            </label>
+            <label class="catalog-radio-option">
+              <input type="radio" name="catalog-selection" value="Custom">
+              <span class="radio-checkmark"></span>
+              <span class="radio-text">Власні текстури (Custom)</span>
+            </label>
           </div>
         </div>
 
@@ -131,9 +162,6 @@
             <button class="filter-chip" data-category="purple">
               <span class="color-dot" style="background-color: #a855f7;"></span> Фіолетовий <span class="count-badge"></span>
             </button>
-            <button class="filter-chip" data-category="custom">
-              <span class="color-dot" style="background-color: #733017;"></span> Custom <span class="count-badge"></span>
-            </button>
           </div>
         </div>
 
@@ -149,11 +177,6 @@
       <!-- Configurator Actions and Details Footer -->
       <div class="sidebar-footer">
         
-        <div class="info-banner">
-          <span class="info-banner-icon">💡</span>
-          <span id="info-banner-text">Всі зразки підвантажуються в реальному часі безпосередньо з оригінального сховища Camira Fabrics.</span>
-        </div>
-
         <div class="selected-summary">
           <div class="summary-item">
             <span>Тканина дивану/полиць:</span>
@@ -174,6 +197,6 @@
 
   </div>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=18"></script>
 </body>
 </html>
