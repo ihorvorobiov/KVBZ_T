@@ -672,16 +672,26 @@ header {
 
 /* Mobile Styling */
 @media (max-width: 1024px) {
+  body {
+    height: auto;
+    overflow: auto;
+    overflow-y: visible;
+  }
+
   .app-container {
     grid-template-columns: 1fr;
     height: auto;
-    overflow-y: auto;
+    overflow-y: visible;
   }
   
   .visualizer-section {
     padding: 1rem;
     height: 60vh;
     min-height: 320px;
+  }
+  
+  .visualizer-container {
+    max-width: calc((60vh - 2rem) * 2540 / 1664);
   }
   
   .configurator-sidebar {
